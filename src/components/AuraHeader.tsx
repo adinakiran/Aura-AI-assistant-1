@@ -17,7 +17,7 @@ interface AuraHeaderProps {
 export const AuraHeader: React.FC<AuraHeaderProps> = ({
   currentTab,
   userEmail = 'adinakiran2003@gmail.com',
-  userName = 'Kiran',
+  userName = 'Adina',
   onLiveVoiceClick,
   onTranscribeClick,
   onMusicStudioClick,

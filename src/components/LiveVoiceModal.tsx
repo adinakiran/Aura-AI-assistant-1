@@ -15,8 +15,8 @@ export const LiveVoiceModal: React.FC<LiveVoiceModalProps> = ({
   isOpen,
   onClose,
   onTranscriptionResult,
-  userName = 'Maya',
-  userEmail = 'maya@novatech.io',
+  userName = 'Adina',
+  userEmail = 'adinakiran2003@gmail.com',
 }) => {
   const [isMuted, setIsMuted] = useState(false);
   const [isVoiceMuted, setIsVoiceMuted] = useState(false);

@@ -42,7 +42,7 @@ export const BriefingTab: React.FC<BriefingTabProps> = ({
   onJoinMeeting,
   onExecutivePrompt,
   urgentEmailsCount,
-  userName = 'Maya',
+  userName = 'Adina',
   userEmail = 'adinakiran2003@gmail.com',
   onLiveVoiceClick,
   onMusicStudioClick,

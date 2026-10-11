@@ -115,7 +115,7 @@ export const AccountEmailModal: React.FC<AccountEmailModalProps> = ({
                 type="text"
                 value={nameInput}
                 onChange={(e) => setNameInput(e.target.value)}
-                placeholder="e.g. Kiran"
+                placeholder="e.g. Adina"
                 className="w-full bg-transparent text-xs text-slate-900 placeholder:text-slate-400 focus:outline-none font-medium"
               />
             </div>

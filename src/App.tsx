@@ -56,7 +56,14 @@ export default function App() {
     return (typeof window !== 'undefined' && localStorage.getItem('aura_user_email')) || 'adinakiran2003@gmail.com';
   });
   const [userName, setUserName] = useState<string>(() => {
-    return (typeof window !== 'undefined' && localStorage.getItem('aura_user_name')) || 'Kiran';
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('aura_user_name');
+      if (stored && stored !== 'Kiran' && stored !== 'Maya') {
+        return stored;
+      }
+      localStorage.setItem('aura_user_name', 'Adina');
+    }
+    return 'Adina';
   });
 
   const handleSaveAccount = (email: string, name: string) => {

@@ -39,8 +39,8 @@ export async function askAura(query: string, currentContext: {
   userEmail?: string;
 }): Promise<AssistantResponse> {
   const lower = query.toLowerCase();
-  const userName = currentContext.userName || 'Maya';
-  const userEmail = currentContext.userEmail || 'maya@novatech.io';
+  const userName = currentContext.userName || 'Adina';
+  const userEmail = currentContext.userEmail || 'adinakiran2003@gmail.com';
 
   // 1. Direct contextual intent handlers for lightning speed
   if (lower.includes('slide 12') || (lower.includes('david') && lower.includes('reply'))) {

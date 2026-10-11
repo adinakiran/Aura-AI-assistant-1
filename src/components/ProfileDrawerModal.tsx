@@ -13,7 +13,7 @@ interface ProfileDrawerModalProps {
 export const ProfileDrawerModal: React.FC<ProfileDrawerModalProps> = ({
   isOpen,
   onClose,
-  userName = 'Maya Sterling',
+  userName = 'Adina',
   userEmail = 'adinakiran2003@gmail.com',
   onOpenEmailConfig,
 }) => {
