@@ -1,0 +1,6 @@
+{
+  "name": "Aura - AI Executive Assistant",
+  "description": "Your autonomous mobile executive assistant. Proactively triages unread messages, protects your calendar focus, coordinates daily briefing, and acts on command.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
